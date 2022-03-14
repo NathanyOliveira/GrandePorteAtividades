@@ -1,0 +1,40 @@
+body {
+    background: url("https://www.vounajanela.com/wp-content/uploads/2019/08/volta-ao-mundo-1.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+     font-weight: bold;
+    
+  }
+  
+
+h1{
+    font-size: 50px;
+    color: black;
+
+}
+
+.alinhamento{
+    border="0" cellspacing="0" cellpadding="5"; 
+    align="center";
+
+}
+
+footer{
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 99%;
+  height: 92px;
+  text-align: center;
+  position: absolute;
+ 
+}
+    
+}
+
+.botoes{
+   text-align="center"; 
+  
+  
+}
+

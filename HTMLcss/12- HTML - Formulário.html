@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulário</title>
+		<meta charset="UTF-8">
+	</head>
+	<body style="background-image: url('https://scontent.fcgh44-1.fna.fbcdn.net/v/t1.6435-9/182350871_3908224659260887_6067320633858115407_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_ohc=yeuzBEu4W3gAX99ubRy&_nc_ht=scontent.fcgh44-1.fna&oh=00_AT_mPLnDCKPDJT_O8Fv3sXg-utvBHmUaDUafMYTyqj27Ig&oe=62511208');" 
+
+		<h1 align="center"><b>Cadastre-se e experimente a aula inaugural!!</h1>
+		<form method="post">
+			<table border="0" cellspacing="0" cellpadding="5" align="center">
+				<tr>
+					<td>Nome</td>
+					<td><input type="text" 
+					           placeholder="Digite seu nome"
+							   size="20"
+							   maxlength="20"
+					           id="campoNome" 
+							   name="campoNome"
+							   required></td>
+				</tr>
+				<tr>
+					<td>Senha</td>
+					<td><input type="password" 
+					           placeholder="Entre uma senha forte"
+					           id="campoSenha" 
+							   name="campoSenha"
+							   required></td>
+				</tr>
+				<tr>
+					<td>Nível Natação</td>
+					<td>
+						<input id="campoNatação" name="campoNatação" type="radio" value="0">Nenhum
+						<input id="campoNatação" name="campoNatação" type="radio" value="1" checked>Básico
+						<input id="campoNatação" name="campoNatação" type="radio" value="2">Intermediário
+						<input id="campoNatação" name="campoNatação" type="radio" value="3">Avançado
+						<input id="campoNataçãos" name="campoNatação" type="radio" value="4">Fluente
+					</td>
+				</tr>
+				<tr>
+					<td>Período</td>
+					<td>
+						<input id="CampoPeríodo" name="CampoPeríodo" type="checkbox" value="L" >Matutino
+						<input id="CampoPeríodo" name="CampoPeríodo" type="checkbox" value="E">Vespertino
+						<input id="CampoPeríodo" name="CampoPeríodo" type="checkbox" value="P" >Noturno
+					</td>
+				</tr>
+				<tr>
+					<td>Observações</td>
+					<td>
+						<textarea placeholder="Escreva algo aqui" id="CampoObs" name="campoObs" cols="30" rows="10"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Estado Civil</td>
+					<td>
+						<select name="campoEstado" id="campoEstado">
+							<option>Solteiro
+							<option selected>Casado
+							<option>Divorciado
+							<option>Viúvo
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Data e Hora</td>
+					<td><input type = "datetime-local" name = "campoDataHora"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
+		</form>
+		<footer>
+			<h2>Desenvolvedoras: </h2>
+			<p><b><i>Nathany Maciel | Adriana Guedes | Camila Marques</i></b></p> 
+		</footer>
+	</body>
+</html>

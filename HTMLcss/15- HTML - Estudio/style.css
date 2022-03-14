@@ -1,0 +1,138 @@
+/* google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&family=Source+Sans+Pro:wght@600&display=swap'); 
+
+/* Margin geral */
+ * {
+    
+    margin: 0;
+    padding: 0;
+}
+/* corpo do site */
+body  {
+   
+    box-sizing: border-box;
+    background-image: url(https://images3.alphacoders.com/551/551126.jpg); /* Imagem do fundo*/
+    width: 100%; /* altura */
+    height: 1100px; /* largura */
+    background-size: cover; /* especifica o tamanho das imagens de fundo. O tamanho da imagem pode ser totalmente ou apenas parcialmente comprimido com o objetivo de preservar sua proporção. O COVER ajusta a imagem o mais largamente possivel, cobrindo o tamanho do container */
+    justify-content: center;
+    color: white; 
+}
+
+header{  /* edição de texto geral do conteudo do header - titulo  */
+    
+    color: white; 
+    text-align: center;
+    font-family: Source;
+    padding: 10px; /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    
+}
+
+
+.cabecalho{
+   display: flex;/*deixa o conteudo da tag na horizontal */
+   flex-direction: row; /* deixa o conteudo da tag na horizontal, reforçando o display flex */
+   align-items: center;/*centraliza os itens, nesta caso alinha os itens da nav assim também como o logo*/
+   justify-content: space-around;/*gera uma borda nas laterais da classe assim também como um espaçamento entre o logo e a nav*/
+   padding: 24px;
+}
+
+
+.cabecalho-menu{
+   display: flex;
+   gap: 32px;
+   background-color: rgb(218, 30, 30) rgb(172, 26, 26) rgb(126, 33, 33);
+}
+.cabecalho-menu-item{
+
+   font-family: 'Sarala', sans-serif;
+   color: rgba(255, 242, 231, 1);
+   font-weight: 400;
+   font-size: 18px;
+   
+}
+
+.conteudo{
+   border-top: 0.4px solid #FFF2E7; /* um traço , tamanho, que tipo e cor*/
+   margin-bottom: 48px;
+
+}
+
+
+
+
+
+
+
+
+
+h1{ /* edição do titulo*/
+    color: white;
+    text-align: center;
+    font-family: Source;
+    font-size: 32px; /* Tamanho da fonte.*/
+    font-style: oblique;
+    font-weight: 200;
+    padding: 20px; /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+}
+
+p{ 
+    margin-left: -10px ;
+    font-style: Roboto;
+    font-size: 25px; /* Tamanho da fonte.*/
+    text-align: center;
+    color:white;
+    padding: 10px 20px /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+}
+
+iframe { /* edição do espaçamento video.*/
+   margin-top: 20px; /* margem em relação ao topo da caixa acima.*/
+   margin-left: 100px;  /* margem em relação a esquerda do site.*/ 
+
+}
+
+.orcamento { /* Outro Titulo */
+    font-family: Source;
+    padding: 30px;  /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    color: white; /* Cor do texto.*/
+    text-align: center;
+    font-size: 40px; /* Tamanho da fonte.*/
+}
+
+li{ /* Lista.*/
+    color: white; 
+    text-align: center; 
+    font-size: 20px; /* Tamanho da fonte.*/
+}
+
+footer{ /* Rodapé.*/
+    text-align: center;
+}
+
+.instagram{ /* Ícones.*/
+    margin:20px;
+    width: 70px;
+    height: 70px;
+
+}
+.youtube{ /* Ícones.*/
+    margin:20px;
+    width: 70px;
+    height: 70px;
+}
+
+h2{
+   margin-top: 100px;
+}
+
+audio {
+   width: 1350px;
+   height: 54px;
+   
+}
+
+audio::-webkit-media-controls-panel{
+   background-color:#923131 !important;
+   }
+
+   

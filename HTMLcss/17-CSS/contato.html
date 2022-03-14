@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Fale Conosco</title>
+		<meta charset="UTF-8">
+       <link rel="stylesheet" href="contato.css">
+	</head>
+	<body>
+     <nav class="cabecalho-menu">
+    
+            <a class="cabecalho-menu-item" href="index.html">Home</a>
+            <a class="cabecalho-menu-item" href="galeriaFotos.html">Galeria de Fotos</a>
+            <a class="cabecalho-menu-item" href="contato.html">Contato</a>
+           
+        </nav>
+        <div>
+		<h1 class h1>Informe seus dados para contato:</h1>
+		<form method="post" style="margin-top: 80px;">
+            			<table class="alinhamento">
+				<tr>
+					<td>Nome Completo:</td>
+					<td><input type="text" 
+					      placeholder="Nome completo"
+							  size="20"
+							  maxlength="20"
+					      id="campoNome" 
+							  name="campoNome"
+							  required>
+          </td>
+				</tr>
+        
+        <tr>
+					<td>E-mail:</td>
+					<td><input type = "email" 
+                name = "campoEmail" 
+                placeholder="seuemail@mail.com"/>
+          </td>
+				</tr>
+        
+				<tr>
+					<td>Telefone:</td>
+					<td><input type="int" 
+					      placeholder="(11) 99999-9999"
+					      id="campoTelefone" 
+							  name="campoTelefone"
+							  required>
+          </td>
+				</tr>
+        
+        <tr>
+					<td>Consultor de Viagens:</td>
+					<td>
+						<input id="campoConsultor" name="campoConsultor" type="radio" value="1">Adriana Guedes
+						<input id="campoConsultor" name="campoConsultor" type="radio" value="2">Camila Marques
+						<input id="campoConsultor" name="campoConsultor" type="radio" value="3">Nathany Maciel
+					</td>
+				</tr>
+        
+        <tr>
+					<td>Escolha seu Destino:</td>
+					<td>
+						<select name="campoEstado" id="campoEstado">
+							<option>Bahia - Caraíva
+							<option>Rio de Janeiro - Copacabana
+							<option>Porto de Galinhas - Pernambuco
+							<option>Maceió - Alagoas
+              <option>Natal - Rio Grande do Norte  
+						</select>
+					</td>
+				</tr>
+        
+        <tr>
+					<td>Data Ida Viagem:</td>
+					<td><input type = "datetime-local" name = "campoDataHora"/></td>
+				</tr>
+
+        <tr>
+					<td>Data Volta Viagem:</td>
+					<td><input type = "datetime-local" name = "campoDataHora"/></td>
+				</tr>
+        
+        <tr>
+					<td>Preferência Horário do Voô:</td>
+					<td>
+						<input id="PrefHora" name="PrefHora" type="checkbox" value="L">Manhã 
+						<input id="PrefHora" name="PrefHora" type="checkbox" value="E">Tarde
+						<input id="PrefHora" name="PrefHora" type="checkbox" value="P">Noite
+					</td>
+				</tr>
+        
+        <tr>
+					<td>Quantidade de Pessoas:</td>
+					<td>
+						<select name="campoQtdPessoas" id="campoQtdPessoas">
+							<option>1 Pessoa
+							<option>2 Pessoas
+							<option>3 Pessoas
+							<option>4 Pessoas
+              <option>5 Pessoas
+              <option>6 à 10 Pessoas  
+						</select>
+					</td>
+				</tr>
+
+        <tr>
+					<td>Quantidade de Quartos:</td>
+					<td>
+						<select name="campoQtdPessoas" id="campoQtdPessoas">
+							<option>1 Quarto
+							<option>2 Quartos
+							<option>3 Quartos
+							<option>4 Quartos
+              <option>5 Quartos
+            </select>
+					</td>
+				</tr>
+        
+				
+        <tr>
+					<td>Formas Pagamento:</td>
+					<td>
+						<input id="campoFormaPgto" name="campoFormaPgto" type="radio" value="1">À vista
+						<input id="campoFormaPgto" name="campoFormaPgto" type="radio" value="2">PIX
+						<input id="campoFormaPgto" name="campoFormaPgto" type="radio" value="3">Cartão Crédito
+            <input id="campoFormaPgto" name="campoFormaPgto" type="radio" value="4">Cartão Débito
+            <input id="campoFormaPgto" name="campoFormaPgto" type="radio" value="5">Boleto
+
+           
+
+					</td>
+				</tr>
+        <tr>
+					<td>Observações:</td>
+					<td>
+						<textarea placeholder="Escreva as observações aqui!" id="CampoObs" name="campoObs" cols="30" rows="10"></textarea>
+          	</td>
+				</tr>
+        
+				
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+          
+    </table >
+          
+           <div class="botoes ">
+            <input type="submit" value="Enviar">
+			      <input type="reset" value="Limpar">
+           </div>
+			           
+		</form>
+
+         <footer>
+              <h3 >Desenvolvedoras: </h3>
+                    <p><b><i>Adriana Guedes  |   Camila Marques   |  Nathany Maciel </i></b></p>   
+           
+        </footer>
+
+	</body>
+</html>
