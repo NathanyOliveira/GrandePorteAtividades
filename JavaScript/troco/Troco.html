@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+        <title> 1 - Prática Javascript</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script type = "text/javascript">
+            function Troco()
+            {
+                var pagamento = parseInt(document.getElementById("campoPagamento").value);
+                var compra = parseInt(document.getElementById("campoCompra").value);
+                var troco = pagamento - compra;
+                
+                if(troco > 0){
+                    document.getElementById("spanResposta").innerHTML= "Seu troco é R$:"
+                    + troco + " Reais.";
+                }else{
+                    document.getElementById("spanResposta").innerHTML= "Não tem troco.";
+                }
+            }
+        </script>
+	</head>
+	<body>
+        <center>
+        <div class="função">
+            <h1>Função Troco</h1>
+            
+                <form method="get">
+                <label for="pagamento">Pagamento:</label><br>
+                    <input type="text" 
+                        placeholder="Digite o valor de pagamento"
+                        size="20"
+                        maxlength="20"
+                        id="campoPagamento" 
+                        name="campoPagamento"
+                        required /><br>
+                    <label for="compra">Valor da compra:</label><br>
+                    <input type="text" 
+                        placeholder="Digite o valor total da compra"
+                        size="20"
+                        maxlength="20"
+                        id="campoCompra" 
+                        name="campoCompra"
+                        required /><br>
+                <input id="titulo" type="submit" value="Enviar" onclick="Troco()">
+                <input id="limpar" type="reset" value="Limpar">
+                <br><span id="spanResposta"></span>
+            </form>
+        </div>
+    </center>
+	</body>
+</html>
